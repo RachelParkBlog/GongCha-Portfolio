@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+.selM a {
+    color: #c30e2e !important;
+    font-weight: 600 !important;
+}
+
+.selM a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0%;
+    bottom: -20px;
+    width: 100%;
+    height: 3.6px;
+    background-color: #c30e2e;
+}
+section {
+    width: 100%;
+}
+#banner {
+    width: 100%;
+    height: 430px;
+    background: url(../images/banner.png) no-repeat center/cover;
+    margin-top: 100px;
+}
+
+#banner h2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 46px;
+    padding-top: 150px;
+    box-sizing: border-box;
+    letter-spacing: -0.6px;
+    text-align: center;
+}
+
+#banner h3 {
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    font-size: 1.25rem;
+    padding-top: 20px;
+    letter-spacing: 0.6px;
+}
+
+#menu {
+    width: 100%;
+    position: relative;
+}
+
+#menu .menu-nav {
+    width: 100%;
+    height: 60px;
+    background-color: #d8d3d3;
+}
+
+#menu .menu-nav ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu-nav ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+   
+}
+
+.menu-nav ul li a {
+    color: #333;
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.menu-nav ul li:hover {
+    background: #ededed;
+}
+
+.menu-nav ul li:hover a {
+    color: #9d1a17;
+    font-weight: 600;
+}
+.active {
+    background: #ededed;
+}
+.active>a {
+    color: #9d1a17 !important;
+    font-weight: 600;
+    text-decoration: underline;
+}
+/* section */
+section#notice {
+    width: 80%;
+    margin: 100px auto 150px;
+    /* outline: 3px solid black; */
+}
+
+section#notice h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 0 10px;
+    margin-bottom: 50px;
+}
+
+section#notice h2 img {
+    display: inline-block;
+    width: 22px;
+    opacity: 0.95;
+    padding: 10px 10px 0;
+}
+#notice .searchBox {
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+section .searchBox .keyword {
+    display: inline-block;
+}
+
+section .searchBox .keyword input {
+    display: inline-block;
+    height: 30px;
+    width: 320px;
+    margin-top: 15px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+section .searchBox button {
+    height: 34px;
+    padding: 2px 30px;
+    display: inline-block;
+    vertical-align: middle;
+    background: #c30e2e;
+    border: 0;
+    border-radius: 8px;
+    color: #eee;
+    font-weight: bold;
+    cursor: pointer;
+}
+section .searchBox .keyword input::placeholder {
+    color: #777;
+}
+
+/* table */
+.noticeBox {
+    width: 100%;
+    position: relative;
+}
+.noticeBox table {
+    width: 100%;
+    border-top: 2px solid #535353;
+    border-bottom: 1px solid #535353;
+    padding: 10px 0;
+    border-collapse: collapse;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: #777;
+}
+.noticeBox table thead th {
+    padding: 15px 0;
+}
+.noticeBox table tbody td:nth-child(2) {
+    text-indent: 50px;
+}
+.noticeBox table th, .noticeBox table td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+.noticeBox table td {
+    text-align: center;
+    color: #777;
+}
+.noticeBox table td.title {
+    text-align: left;
+    padding-left: 10px;
+
+}
+.noticeBox table td.title a {
+    color: #777;
+}
+.noticeBox table td.title a:hover {
+    text-decoration: underline;
+}
+
+.noticeBox .writeBtn {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-bottom: 20px;
+}
+.noticeBox .writeBtn button {
+    /*display: inline-block;*/
+    padding: 10px 40px;
+    background: #007042;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+}
+.pager {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.pager a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+    color: #777;
+}
+.pager a:hover {
+    background: #c30e2e;
+    color: #fff;
+    border: 1px solid #fff;
+}

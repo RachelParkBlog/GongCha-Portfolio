@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+.selM a {
+    color: #c30e2e !important;
+    font-weight: 600 !important;
+}
+
+.selM a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0%;
+    bottom: -20px;
+    width: 100%;
+    height: 3.6px;
+    background-color: #c30e2e;
+}
+
+/*sub_brand_공차의 철학*/
+
+#banner {
+    width: 100%;
+    height: 430px;
+    background: url(../images/idea-bg.png) no-repeat center top/cover;
+    margin-top: 100px;
+}
+
+#banner h2 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 44px;
+    padding-top: 150px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#banner h3 {
+    color: #eee;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 25px;
+    letter-spacing: 0.6px;
+}
+
+section {
+    width: 100%;
+    background: url(../images/section_bg.jpg) no-repeat center/cover;
+    color: #333;
+}
+
+.idea .brand-logo {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.idea .brand-logo img {
+    display: inline-block;
+    height: 70px;
+}
+
+.idea>h2 {
+    text-align: center;
+    padding: 40px 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.idea .idea-wrap {
+    width: 80%;
+    margin: 130px auto 0;
+    overflow: hidden;
+    /* outline: 3px solid green; */
+}
+
+.idea-wrap .idea-box {
+    position: relative;
+}
+.idea-box .txt-box {
+    position: absolute;
+}
+
+.idea-wrap .idea-box h3 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.idea-wrap .idea-box p.title {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+
+p.desc {
+    color: #777;
+    line-height: 1.6;
+}
+
+.idea-wrap .idea-box img {
+    display: block;
+    border-radius: 20px;
+}
+
+.idea-box:nth-child(1) {
+    height: 500px;
+    position: relative;
+}
+
+.idea-wrap .idea-box:nth-child(1) img {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.idea-box:nth-child(2) {
+    position: relative;
+    left: 47%;
+    height: 600px;
+}
+
+.idea-wrap .idea-box:nth-child(2) img {
+    position: absolute;
+    top: 0;
+    left: -46%;
+}
+
+.idea-wrap .idea-box:nth-child(2) h3 {
+    padding-top: 100px;
+}
+
+.idea-box:nth-child(3) {
+    height: 400px;
+    position: relative;
+}
+
+.idea-wrap .idea-box:nth-child(3) img {
+    position: absolute;
+    right: 5%;
+}
+
+.gongcha-char {
+    width: 100%;
+    padding: 80px 0;
+    background-color: rgba(185, 185, 185, 0.733);
+}
+
+/* char-box 공통 */
+.gongcha-char .char-box {
+    width: 1280px;
+    margin: 0 auto;
+    height: 360px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #c4c4c4;
+    padding: 20px 40px;
+    margin-bottom: 40px;
+    opacity: 0;
+}
+
+.char-box:nth-child(1) {
+    background: #fff url(../images/idea-img-03.png) no-repeat 50px 100px;
+}
+
+.char-box:nth-child(2) {
+    background: #fff url(../images/idea-img-04.png) no-repeat 30px 100px;
+}
+
+.char-box:nth-child(3) {
+    background: #fff url(../images/idea-img-05.png) no-repeat 50px 100px;
+    margin-bottom: 0;
+}
+
+.char-box .txt-wrap {
+
+    position: relative;
+    left: 40%;
+    top: 20%;
+}
+
+.char-box h3 {
+    font-size: 28px;
+    font-size: 1.75rem;
+    margin-bottom: 40px;
+}
+
+.char-box p {
+    line-height: 2;
+    font-size: 18px;
+    font-size: 1.125rem;
+}

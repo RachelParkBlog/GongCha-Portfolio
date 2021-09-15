@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+section#register {
+    width: 100%;
+    margin-top: 100px;
+    background: url(../images/register-bg.png) no-repeat center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+section#register .inner-section {
+    width: 800px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+.inner-section h2 {
+    text-align: center;
+    font-size: 32px;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 60px;
+    color: #fff;
+}
+.inner-section .joinBox {
+    width: 100%;
+    background-color: #fff;
+    padding: 40px 0;
+}
+.joinBox .welcome {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-weight: normal;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ededed;
+}
+.joinBox .welcome span {
+    color: #c30e2e;
+}
+.joinBox form {
+    padding: 20px 20px 0;
+}
+.joinBox form {
+    padding: 0 30px;
+    color: #666;
+}
+.joinBox form fieldset {
+    border: 0;
+    padding: 30px 0;
+    margin-bottom: 40px;
+}
+.joinBox form fieldset legend {
+    color: #333;
+}
+.joinBox form fieldset.required legend {
+    padding-top: 40px;
+}
+.joinBox table {
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 2px solid #392f2b;
+   /*  border-bottom: 1px solid #392f2b; */
+}
+.joinBox table tr {
+    border-bottom: 1px solid #eee;
+    height: 50px;
+    line-height: 50px;
+}
+.joinBox table th, .joinBox table tr  {
+    padding: 10px 0;
+}
+.joinBox table th {
+    width: 20%;
+    text-align: left;
+    background-color: #ededed;
+    text-indent: 10px;
+}
+.joinBox table td {
+    width: 80%;
+    text-indent: 10px;
+    font-weight: 200;
+}
+.joinBox table td span {
+    font-size: 14px;
+    font-size: 0.875rem;
+    color: #c30e2e;
+    font-weight: normal;
+}
+.joinBox input {
+    display: inline-block;
+    height: 32px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    padding-left: 6px;
+    border-radius: 3px;
+}
+.joinBox input[type=email] {
+    width: 300px;
+}
+
+.joinBox .optional input {
+    width: 300px;
+}
+
+/* placeholder 색상변경 */
+input::placeholder {
+    color: #999;
+}
+.joinBox .optional p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #535353;
+}
+.joinBox form .btn {
+    height: 60px;
+    width: 100%;
+    display: block;
+    border: 0; /* 클릭하는 순간에 보더 들어가는 걸 없애기 위함 */
+    line-height: 60px;
+    background-color: #c30e2e;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}

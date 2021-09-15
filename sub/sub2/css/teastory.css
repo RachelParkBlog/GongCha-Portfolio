@@ -1,0 +1,346 @@
+@charset "utf-8";
+
+.selM a {
+    color: #c30e2e !important;
+    font-weight: 600 !important;
+}
+
+.selM a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0%;
+    bottom: -20px;
+    width: 100%;
+    height: 3.6px;
+    background-color: #c30e2e;
+}
+
+/* teastory */
+section {
+    width: 100%;
+}
+
+#banner {
+    width: 100%;
+    height: 360px;
+    background: url(../images/beverage-bg.png) no-repeat left top/cover;
+    margin-top: 100px;
+}
+
+#banner h2 {
+    color: #333;
+    font-weight: 300;
+    font-size: 44px;
+    padding-top: 130px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#banner h3 {
+    color: #555;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 25px;
+    letter-spacing: 0.6px;
+}
+
+#tea-story {
+    width: 100%;
+}
+
+#tea-story .menu-nav {
+    width: 100%;
+    height: 60px;
+    background-color: #9d1a17;
+}
+
+#tea-story .menu-nav ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#tea-story .menu-nav ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+}
+
+#tea-story .menu-nav ul li a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#tea-story .menu-nav ul li:hover {
+    background: #e59d9c;
+}
+
+#tea-story .menu-nav ul li:hover a {
+    color: #9d1a17;
+    font-weight: 600;
+}
+
+.active {
+    background: #e59d9c;
+}
+
+.active>a {
+    color: #9d1a17 !important;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.tea-story-wrap {
+    padding-top: 80px;
+    width: 70%;
+    margin: 0 auto;
+    /* position: relative; */
+}
+
+.tea-story-wrap h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+h2 img {
+    display: inline-block;
+    width: 22px;
+    opacity: 0.95;
+    padding: 10px 10px 0;
+}
+.tea-story-wrap .story-box {
+    float: left;
+    width: 25%;
+    padding: 25px 0;
+    position: relative;
+    /* outline: 3px solid blue; */
+}
+.story-box img {
+    display: block;
+    height: 240px;
+    margin: 0 auto;
+}
+
+.story-box p {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: normal;
+    color: #777;
+    line-height: 1.4;
+}
+
+.story-box p>span {
+    color: #333;
+    font-weight: bold;
+    display: block;
+}
+
+/* hover-box */
+.story-box .hover-box {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.hover-box h3 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 40px 0 30px;
+    text-align: center;
+}
+
+.hover-box p {
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    line-height: 1.8;
+}
+
+.story-box:hover .hover-box {
+    display: block;
+}
+
+/* hover-box의 더보기 */
+.tmoreBtn {
+    display: none;
+    background-color: #eee;
+    padding: 12px 20px;
+    border-radius: 7px;
+    font-size: 14px;
+    position: absolute;
+    left: 50%;
+    top: 66%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.story-box:hover .tmoreBtn {
+    display: block;
+}
+
+.tea-more {
+    display: none;
+    clear: both;
+    background-color: #ededed;
+    padding:50px;
+    height: 220px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 20px;
+}
+.tea-more img {
+    display: block;
+    width: 160px;
+    float: left;
+}
+.tea-more .txt-wrap {
+    width: 40%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.tea-more .txt-wrap h3 {
+    font-size: 22px;
+}
+.tea-more .txt-wrap h3 span {
+    font-size: 16px;
+    color: #7c5d1a;
+    display: block;
+    padding: 15px 0;
+}
+.tea-more .txt-wrap p {
+    line-height: 1.6;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.tea-more .bas {
+    float: right;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+.tea-more .bas .step {
+    margin-bottom: 20px;
+}
+.tea-more .bas .step span {
+    padding: 0 10px;  
+    font-size: 14px;
+    /* outline: 3px solid lime; */
+}
+.tea-more .bas .step span~span:before {
+    content: "";
+    display: inline-block;
+    width: 1.5px;
+    height: 10px;
+    margin-right: 20px;
+    background-color: #333;
+}
+.tea-more .bas p {
+    line-height: 2;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.body, .acid, .sweet {
+    font-size: 10px;
+    padding: 0 10px;
+    color: #7c5d1a;
+    display: inline-block;
+}
+.body {
+    margin-left: 20px;
+}
+.acid {
+    margin-left: 21.5px;
+}
+.sweet {
+    margin-left: 26px;
+}
+.cbtn {
+    position: absolute;
+    right: 30px;
+    top: 28px;
+}
+.cbtn img {
+    width: 20px;
+    height: 20px;
+}
+/* tea-recipe */
+.tea-recipe-wrap {
+    clear: both;
+    padding-top: 60px;
+}
+
+.tea-recipe-wrap h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 60px auto 80px;
+}
+
+.recipe-box {
+    width: 42%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    height: 270px;
+    padding: 8px;
+    /* outline: 3px solid; */
+}
+
+.recipe-box:nth-child(2) {
+    background: url(../images/tea_recipe_img1.png) no-repeat -23px center;
+    background-size: 300px 240px;
+}
+
+.recipe-box:nth-child(3) {
+    background: url(../images/tea_recipe_img2.png) no-repeat 10px center;
+    background-size: 300px 240px;
+}
+
+.recipe-box:nth-child(4) {
+    background: url(../images/tea_recipe_img3.png) no-repeat 0 center;
+    background-size: 300px 240px;
+}
+
+.recipe-box:nth-child(5) {
+    background: url(../images/tea_recipe_img4.png) no-repeat 0 center;
+    background-size: 300px 240px;
+}
+
+.recipe-box .rec-text {
+    float: right;
+    width: 50%;
+    margin-top: 45px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.rec-text h3 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.rec-text h3 span {
+    display: block;
+    color: #c30e2e;
+}
+
+.rec-text p {
+    margin-top: 20px;
+    color: #777;
+    font-weight: 300;
+    line-height: 1.6;
+}

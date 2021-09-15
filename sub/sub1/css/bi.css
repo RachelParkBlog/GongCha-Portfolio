@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+.selM a {
+    color: #c30e2e !important;
+    font-weight: 600 !important;
+}
+
+.selM a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0%;
+    bottom: -20px;
+    width: 100%;
+    height: 3.6px;
+    background-color: #c30e2e;
+}
+
+/*sub_brand_공차의 철학*/
+
+#banner {
+    width: 100%;
+    height: 430px;
+    background: url(../images/bi-bg.png) no-repeat center top/cover;
+    margin-top: 100px;
+}
+
+#banner h2 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 44px;
+    padding-top: 150px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#banner h3 {
+    color: #eee;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 25px;
+    letter-spacing: 0.6px;
+}
+.bi-title {
+    width: 100%;
+    margin: 80px 0 150px;
+}
+.bi-title>h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+    margin-bottom: 80px;
+}
+.bi-title>h2>span {
+    display: block;
+    margin: 10px;
+}
+.bi-title>h2>span img {
+    display: block;
+    height: 15px;
+    margin: 0 auto;
+}
+
+.bi-wrap {
+    width: 70%;
+    margin: 0 auto;
+    /* outline: 3px solid; */
+}
+.bi-wrap h2 {
+    font-size: 24px;
+    position: relative;
+    margin-bottom: 20px;
+}
+/* 제목 상단 미니 바 */
+.red::before,
+.red::after {
+    content: "";
+    display: block;
+    background-color: #c30e2e;
+    width: 18px;
+    height: 3px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+.logo-box {
+   /*  outline: 3px solid; */
+    float: left;
+    width: 47.5%;
+    height: 600px;
+    position: relative;
+    /* outline: 3px solid blue; */
+}
+
+.img-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+.img-wrap img {
+    display: inline-block;
+    height: 100%;  
+}
+.logo-box>.img-wrap img:first-child {
+    margin-top: 49px;
+}
+.color-code {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.square {
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+.brown {background-color: #392f2b;}
+.redy {background-color: #c30e2e;}
+
+.color-code p {
+    display: block;
+    float: left;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 10px 0 0 20px;
+}
+.logo-desc {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+.logo-desc p {
+    line-height: 2;
+}
+.slogan-box {
+    float: right;
+    width: 44.5%;
+    height: 600px;
+    position: relative;
+    /* outline: 3px solid red; */
+}
+.slogan-box>h2 {
+    position: absolute;
+    left: 20px;
+}
+.slogan-box .img-wrap {
+    position: absolute;
+    left: 20px;
+    top: 84px;
+}
+.slogan-box .img-wrap img {
+    width: 260px;
+    display: inline-block;
+}
+.slogan-box .slogan-desc {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    padding: 10px;
+}
+.slogan-desc {
+    line-height: 2;
+}
+/* 브랜드 패턴 */
+.brand-pattern {
+    clear: both;
+    padding-top: 120px;
+}
+.brand-pattern .pt-box {
+    float: left;
+    width: 22%;
+    margin-right: 3%;
+    margin-top: 20px;
+}
+.pt-box:last-child {
+    margin-right: 0;
+}
+.pt-box>img {
+    display: block;
+    width: 100%;
+}
+.pt-box>p {
+    margin-top: 30px;
+    text-align: center;
+    height: 60px;
+    line-height: 1.8;
+    font-weight: 500;
+}
+.mint {background-color: #6ab29a;}
+.blue {background-color: #96c5df;}
+.beige {background-color: #e0dac2;}
+
+.color-box {
+    clear: both;
+    padding-top: 40px;
+}
+.pt-color-code {
+    float: left;
+    width: 22%;
+    margin-right: 3%;
+}
+.pt-color-code:last-child {
+    margin-right: 0;
+}
+.pt-color-code>p {
+    display: block;
+    float: left;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 10px 0 0 20px;
+}
+.color-box:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.msg {
+    margin: 120px 0;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 1.8;
+}

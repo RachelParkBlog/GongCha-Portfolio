@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+.selM a {
+    color: #c30e2e !important;
+    font-weight: 600 !important;
+}
+
+.selM a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0%;
+    bottom: -20px;
+    width: 100%;
+    height: 3.6px;
+    background-color: #c30e2e;
+}
+
+/* 디저트 */
+section {
+    width: 100%;
+}
+
+#banner {
+    width: 100%;
+    height: 360px;
+    background: url(../images/beverage-bg.png) no-repeat center/cover;
+    margin-top: 100px;
+}
+
+#banner h2 {
+    color: #333;
+    font-weight: 300;
+    font-size: 44px;
+    padding-top: 130px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#banner h3 {
+    color: #555;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 25px;
+    letter-spacing: 0.6px;
+}
+
+#menu {
+    width: 100%;
+    position: relative;
+}
+
+#menu .menu-nav {
+    width: 100%;
+    height: 60px;
+    background-color: #9d1a17;
+}
+
+#menu .menu-nav ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu-nav ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+}
+
+.menu-nav ul li a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.menu-nav ul li:hover {
+    background: #e59d9c;
+}
+
+.menu-nav ul li:hover a {
+    color: #9d1a17;
+    font-weight: 600;
+}
+.active {
+    background: #e59d9c;
+}
+.active>a {
+    color: #9d1a17 !important;
+    font-weight: 600;
+    text-decoration: underline;
+}
+/* 하단 구성메뉴 공통 */
+.moreb {
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 260px;
+    height: 260px;
+    background-color: rgba(157, 26, 23, 0.7);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.moreb .plus {
+    display: block;
+    font-size: 80px;
+    font-weight: 100;
+    color: #eee;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.moreb .btn {
+    color: #eee;
+    display: block;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.btn:hover {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+/* section */
+section {
+    width: 100%;
+}
+section h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 0 10px;
+    margin: 50px 0 80px;
+}
+h2 img {
+    display: inline-block;
+    width: 22px;
+    opacity: 0.95;
+    padding: 10px 10px 0;
+}
+.menu-wrap {
+    width: 80%;
+    margin: 80px auto;
+    /* outline: 3px solid black; */
+}
+.menu-wrap:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.menu-wrap .menu-box {
+    float: left;
+    width: 25%;
+    border: 1px solid #ededed;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.menu-wrap .menu-box img {
+    height: 330px;
+    margin-left: 38px;
+    display: block;
+    margin: 0 auto;
+}
+
+.menu-box .bname {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.menu-box:hover>.moreb {
+    display: block;
+
+}
+
+.menu-box:hover>.moreb .btn {
+    bottom: 76px;
+}
+
+footer {
+    margin-top: 150px;
+}

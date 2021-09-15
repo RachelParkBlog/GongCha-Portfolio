@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+
+/* CSS 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, secti on, summary, time, mark, audio, video{
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+body{
+font-family: 'Noto Sans KR', sans-serif;
+line-height: 1;
+color: #535353;
+overflow-x: hidden;
+overflow-y: auto;
+}
+
+article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section,lable{
+display:block;
+}
+
+ol, ul, li{
+list-style:none;
+}
+
+a{
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+text-decoration:none;
+color: #535353;
+}
+
+img{
+vertical-align:top;
+}
+
+hr{
+display:block;
+height:2px;
+border:0;
+}
+ul::after, ol::after, .clearfix::before .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/*IE 10+ 이상에서만 placeholder 속성이 적용됩니다. 그 이하 버전은 적용되지 않음
+*/
+::-moz-input-placeholder, ::-moz-textarea-placeholder{
+color:#3f51b5;
+}
+
+::-webkit-input-placeholder, ::-webkit-textarea-placeholder{
+color:#3f51b5;
+}    

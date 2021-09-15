@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+.selM a {
+    color: #c30e2e !important;
+    font-weight: 600 !important;
+}
+
+.selM a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0%;
+    bottom: -20px;
+    width: 100%;
+    height: 3.6px;
+    background-color: #c30e2e;
+}
+
+/*sub_menu_베스트 콤비네이션*/
+section {
+    width: 100%;
+}
+
+#banner {
+    width: 100%;
+    height: 430px;
+    background: url(../images/beverage-bg.png) no-repeat left top/cover;
+    margin-top: 100px;
+}
+
+#banner h2 {
+    color: #333;
+    font-weight: 300;
+    font-size: 44px;
+    padding-top: 150px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#banner h3 {
+    color: #555;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 25px;
+    letter-spacing: 0.6px;
+}
+
+/* best메뉴 */
+#best {
+    width: 100%;
+    height: 100%;
+    margin: 50px 0;
+}
+.best-wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+.best-box {
+    float: left;
+    width: 50%;
+    margin-bottom:20px;
+}
+.best-box>img {
+    display: block;
+    float: left;
+    width: 280px;
+    height: 330px;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    animation: best-box 1s ease-in-out alternate;
+    animation-iteration-count: 10;
+}
+.best-box .txt-wrap {
+    float: right;
+    width: 53%;
+    height: 330px;
+    /* outline: 3px solid palegreen; */
+}
+.best-box .txt-wrap h3 {
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin: 50px 0 30px;
+}
+.best-box .txt-wrap p {
+    line-height: 1.6;
+    color: #777;
+}
+.best-box .txt-wrap p span {
+    display: block;
+    color: #777;
+    margin-bottom: 12px;
+}
+.best-box .txt-wrap .moreBtn {
+    display: block;
+    margin-top: 40px;
+    color: #c30e2e;
+    font-weight: 400;
+}
+.moreBtn:hover {
+    text-indent: 5px;
+    font-weight: bold;
+    -webkit-transition: all .4s ease-out;
+    -ms-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+}
+.best-box:last-child {
+    margin-bottom: 100px;
+}
+footer {
+    clear: both;
+}
+
+@keyframes best-box {
+    from {
+        -webkit-transform: rotate(-3deg);
+        -ms-transform: rotate(-3deg);
+        transform: rotate(-3deg);
+    }
+    to {
+        -webkit-transform: rotate(3deg);
+        -ms-transform: rotate(3deg);
+        transform: rotate(3deg);
+    }
+}

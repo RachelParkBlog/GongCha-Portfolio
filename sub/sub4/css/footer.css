@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/* footer.css */
+footer {
+    width: 100%;
+    height: 240px;
+    background-color: #ededed;
+}
+.inner-footer {
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    /* outline: 3px solid lime; */
+}
+.inner-footer .top {
+    display: block;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.inner-footer .foot-nav {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    /* outline: 3px solid blue; */
+}
+.foot-nav>a {
+    display: inline-block;
+    margin-right: 60px;
+    font-weight: normal;
+    /* outline: 3px solid blue; */
+}
+.foot-nav a>span {
+    color: #c30e2e;
+}
+.footer-info {
+    font-size: 14px;
+    color: #999;
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+.footer-info p {
+    line-height: 1.59;
+    text-align: left;
+}
+.footer-info p:last-child {
+    margin-top: 40px;
+}
+.footer-info p b {
+    color: #535353;
+    font-weight: 500;
+}
+.footer-info p span {
+    font-size: 18px;
+    padding-top: 2px;
+}
+.footer-store {
+    width: 360px;
+    height: 64px;
+    color: #535353;
+    font-weight: bold;
+    position: absolute;
+    top: 35%;
+    right: 0;
+}
+.footer-store .store-txt {
+    float: left;
+    margin-right: 40px;
+}
+.footer-store .store-txt p {
+    margin-top:5px;
+    line-height: 1.7;
+    font-weight: 500;
+    color: #666;
+}
+.footer-store .store-txt .snum {
+    color: #c30e2e;
+    font-size: 24px;
+}
+.footer-store .store-btn {
+    float: left;
+    display: block;
+    width: 154px;
+    height: 56px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    line-height: 56px;
+    text-align: center;
+    color: #666;
+    font-weight: normal;
+    position: absolute;
+    top: 9px;
+    right: 0;
+}

@@ -1,0 +1,308 @@
+@charset "utf-8";
+
+.selM a {
+    color: #c30e2e !important;
+    font-weight: 600 !important;
+}
+
+.selM a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0%;
+    bottom: -20px;
+    width: 100%;
+    height: 3.6px;
+    background-color: #c30e2e;
+}
+
+/* 음료 */
+section {
+    width: 100%;
+}
+
+#banner {
+    width: 100%;
+    height: 360px;
+    background: url(../images/beverage-bg.png) no-repeat center/cover;
+    margin-top: 100px;
+}
+
+#banner h2 {
+    color: #333;
+    font-weight: 300;
+    font-size: 44px;
+    padding-top: 130px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#banner h3 {
+    color: #555;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 25px;
+    letter-spacing: 0.6px;
+}
+
+#menu {
+    width: 100%;
+    position: relative;
+}
+
+#menu .menu-nav {
+    width: 100%;
+    height: 60px;
+    background-color: #9d1a17;
+}
+
+#menu .menu-nav ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu-nav ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+}
+
+.menu-nav ul li a {
+    display: block;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.menu-nav ul li:hover {
+    background: #e59d9c;
+}
+
+.menu-nav ul li:hover a {
+    color: #9d1a17;
+    font-weight: 600;
+}
+
+.active {
+    background: #e59d9c;
+}
+
+.active>a {
+    color: #9d1a17 !important;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* 추천메뉴*/
+#recommend {
+    width: 80%;
+    margin: 0 auto;
+    height: 382px;
+    overflow: hidden;
+    position: relative;
+    /* outline: 3px solid lime; */
+}
+
+.recom-wrap {
+    width: 300%;
+    margin: 0 auto;
+    height: 303px;
+    margin: 80px auto;
+    position: absolute;
+    left: 0;
+}
+.recom-wrap .recom-box {
+    float: left;
+    width: 313px;
+    box-sizing: border-box;
+    position: relative;
+    left: 0;
+    /* outline: 3px solid lime; */
+}
+.recom-wrap .recom-box>img {
+    display: inline-block;
+    width: 260px;
+    padding: 21px;
+    /* outline: 3px solid red; */
+}
+
+.recom-wrap .recom-box>span {
+    width: 56px;
+    height: 56px;
+    display: inline-block;
+    position: absolute;
+    top: -35px;
+}
+
+.recom-wrap .recom-box>span img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.moreR, .moreb {
+    display: none;
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 260px;
+    height: 260px;
+    background-color: rgba(157, 26, 23, 0.7);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.recom-box:hover .moreR {
+    display: block;
+}
+
+.plus {
+    display: block;
+    font-size: 80px;
+    font-weight: 100;
+    color: #eee;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    color: #eee;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 56%;
+}
+
+.btn {
+    color: #eee;
+    display: block;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.btn:hover {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+
+/* section*/
+#bmenu {
+    width: 100%;
+}
+#bmenu h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 0 10px;
+    margin: 50px 0;
+}
+h2 img {
+    display: inline-block;
+    width: 22px;
+    opacity: 0.95;
+    padding: 10px 10px 0;
+}
+.menu-wrap {
+    width: 80%;
+    margin: 80px auto;
+    /* outline: 3px solid black; */
+}
+.menu-wrap:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.menu-wrap .menu-box {
+    float: left;
+    width: 25%;
+    border: 1px solid #ededed;
+    box-sizing: border-box;
+    position: relative;
+    display: none;
+}
+.menu-wrap .menu-box img {
+    width: 260px;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    /* outline: 3px solid; */
+}
+
+.menu-box .bname {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.menu-box:hover .moreb {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.menu-box:hover .moreb .btn {
+    bottom: 76px;
+}
+
+/* 더보기 버튼 */
+.ldmoreBtn {
+    display: block;
+    border: 1px solid #c30e2e;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+    color: #c30e2e;
+    text-align: center;
+    font-weight: 500;
+    margin: 60px auto 80px;
+}
+
+.ldmoreBtn:hover {
+    background-color: #c30e2e;
+    color: #fff;
+}
+
+footer {
+    clear: both;
+}
+
+/* drag관련 css */
+.disableselect {
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.disabledrag {
+    -webkit-user-drag: none;
+    -ms-user-drag: none;
+    -moz-user-drag: none;
+    user-drag: none;
+}
