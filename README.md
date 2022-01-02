@@ -17,9 +17,6 @@
 
 - 개발기간 : 2021/11/15 ~ 2021/11/26
 - 개발 인원 : 프론트엔드 3명, 백엔드 2명
-- 팀원 : 권민석, 박보라, 양성호, 이용건, 장연정
-- [프론트 github 링크](https://github.com/wecode-bootcamp-korea/26-2nd-Prep-frontend)
-- [백엔드 github 링크](https://github.com/wecode-bootcamp-korea/26-2nd-Prep-backend)
 
 <br>
 
@@ -28,7 +25,7 @@
 ### 적용 기술
 
 > - Front-End : JavaScript, React.js, React Hooks, styled-components, React-router-dom v6, AWS(EC2)
-> - Back-End : Django, Python, MySQL, jwt, bcrypt, AWS(EC2, RDS)
+> - Back-End : 
 > - Common : Git, Github, Slack, Trello, dbdiagram, postman
 
 ### 구현 기능
