@@ -36,11 +36,16 @@
 
 > Main Page
 
-  - 
+  - setInterval 함수 로직을 활용한 메인 슬라이더 자동 실행
+  - 버튼 클릭시 이동 및 슬라이더 멈춤기능
+  - clearTimeOut을 활용한 일정 시간이 지나면 다시 재생되도록 하는 기능 구현
+  - animate 함수를 이용한 sns 이미지 효과
     
 > Sub Page
-
-> Database
+  - scroll event를 활용한 UI 구현
+  - draggable속성과 mouseup/move event를 사용한 메뉴 상단 슬라이더 기능 구현
+  - PHP와 DB 연동을 통한 게시판 기능 구현
+  - 페이지네이션 및 더보기 버튼 기능 구현
 
 <br>
 
